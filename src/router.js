@@ -24,5 +24,10 @@ export default new Router({
       name: 'map',
       component: () => import('./components/Map.vue'),
     },
+    {
+      path: '/api',
+      name: 'api',
+      component: () => import('./components/Api.vue'),
+    },
   ],
 });
